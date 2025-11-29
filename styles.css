@@ -168,7 +168,7 @@ a:focus-visible {
   display: grid;
   grid-template-columns: minmax(0, 3fr) minmax(0, 2.5fr);
   gap: 3rem;
-  align-items: center;
+  align-items: right;
 }
 
 .hero-copy {
