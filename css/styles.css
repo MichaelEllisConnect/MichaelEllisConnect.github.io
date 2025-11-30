@@ -261,7 +261,7 @@ a:focus-visible {
 
 .hero-watermark {
   position: absolute;
-  right: 100px;      /* move closer to center */
+  right: 300px;      /* move closer to center */
   bottom: 12px;
   width: 150px;
   opacity: 0.4;
