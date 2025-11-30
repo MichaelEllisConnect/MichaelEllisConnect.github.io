@@ -261,12 +261,11 @@ a:focus-visible {
 
 .hero-watermark {
   position: absolute;
-  right: 150px;      /* move closer to center */
-  bottom: 12px;
-  width: 150px;
-  opacity: 0.4;
-  filter: grayscale(0.1);
-  mix-blend-mode: multiply;
+  right: 1.5rem;   /* was probably negative or too large */
+  bottom: 1.5rem;
+  max-width: 150px;  /* or whatever feels right */
+  opacity: 0.08;
+  pointer-events: none;
 }
 
 /* Buttons */
